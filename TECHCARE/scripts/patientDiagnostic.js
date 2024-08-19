@@ -35,9 +35,9 @@ export const renderTensionData = (tensionData, container) => {
   `;
 
   const tensionItemsHTML = `
-    ${createTensionItem("./assets/respiratory_rate.svg", "Respiratory Rate", `${respiratory_rate.value} bpm`, respiratory_rate.levels)}
-    ${createTensionItem("./assets/temperature.svg", "Temperature", `${temperature.value}°F`, temperature.levels)}
-    ${createTensionItem("./assets/HeartBPM.svg", "Heart Rate", `${heart_rate.value} bpm`, heart_rate.levels)}
+    ${createTensionItem("./public/respiratory_rate.svg", "Respiratory Rate", `${respiratory_rate.value} bpm`, respiratory_rate.levels)}
+    ${createTensionItem("./public/temperature.svg", "Temperature", `${temperature.value}°F`, temperature.levels)}
+    ${createTensionItem("./public/HeartBPM.svg", "Heart Rate", `${heart_rate.value} bpm`, heart_rate.levels)}
   `;
 
   containerElement.append(tensionItemsHTML);

@@ -42,7 +42,7 @@ export const renderPatientsData = (data, container) => {
 
     const moreBtn = $("<img>")
       .addClass("more-btn")
-      .attr("src", "./assets/more_vert.png")
+      .attr("src", "./public/more_vert.png")
       .attr("alt", "More options");
     
     patientCard.append(patientCardDetails).append(moreBtn);
@@ -100,35 +100,35 @@ export const renderPatientDetails = (patientData, container) => {
       <h2>${name}</h2>
       <div class="align-self-start patient-more-details">
         <div class="date_of_birth">
-          <img src="./assets/BirthIcon.png" alt="Date of Birth">
+          <img src="./public/BirthIcon.png" alt="Date of Birth">
           <span>
             <p>Date of Birth</p>
             <p>${date_of_birth}</p>
           </span>
         </div>
         <div class="gender">
-          <img src="./assets/FemaleIcon.png" alt="Gender">
+          <img src="./public/FemaleIcon.png" alt="Gender">
           <span>
             <p>Gender</p>
             <p>${gender}</p>
           </span>
         </div>
         <div class="contact">
-          <img src="./assets/PhoneIcon.png" alt="Contact Info">
+          <img src="./public/PhoneIcon.png" alt="Contact Info">
           <span>
             <p>Contact Info.</p>
             <p>${phone_number}</p>
           </span>
         </div>
         <div class="emergency-contact">
-          <img src="./assets/PhoneIcon.png" alt="Emergency Contact">
+          <img src="./public/PhoneIcon.png" alt="Emergency Contact">
           <span>
             <p>Emergency Contact.</p>
             <p>${emergency_contact}</p>
           </span>
         </div>
         <div class="insurance-provider">
-          <img src="./assets/InsuranceIcon.png" alt="Insurance Provider">
+          <img src="./public/InsuranceIcon.png" alt="Insurance Provider">
           <span>
             <p>Insurance Provider</p>
             <p>${insurance_type}</p>
@@ -146,7 +146,7 @@ export const renderPatientDetails = (patientData, container) => {
     $labsContainer.append(`
         <div class="d-flex justify-content-between p-1 align-items-center w-100">
           <p class="mb-0">${result}</p>
-          <img src="./assets/download.png" alt="Download result">
+          <img src="./public/download.png" alt="Download result">
         </div>
     `);
   });

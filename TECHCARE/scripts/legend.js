@@ -59,7 +59,7 @@ export const legendPlugin = {
               </div>
               <p>${value}</p>
               <div class="d-flex caret align-items-center gap-1">
-                <img src="./assets/${icon}" alt="${iconLabel}" />
+                <img src="./public/${icon}" alt="${iconLabel}" />
                 <span>${iconLabel}</span>
               </div>
             </div>
