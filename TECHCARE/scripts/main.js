@@ -1,7 +1,7 @@
 import { fetchData } from "./data.js";
 import { renderPatientsData, renderPatientDetails } from "./dashboard.js";
 
-const url = import.meta.env.VITE_API_URL;
+const url = "https://fedskillstest.coalitiontechnologies.workers.dev";
 const patientEntry = ".patients-list";
 const patientDetails = ".pat-info";
 
